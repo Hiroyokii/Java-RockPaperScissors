@@ -2,10 +2,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) { 
         Scanner input = new Scanner(System.in);
-
         String[] rps = {"Rock", "Paper", "Scissor"};
 
         System.out.print("Enter your choice (Rock, Paper, Scissor): ");
@@ -22,8 +20,7 @@ public class Main {
         } else if (userChoice.equalsIgnoreCase("Rock") && computerChoice.equals("Scissor") ||
                    userChoice.equalsIgnoreCase("Paper") && computerChoice.equals("Rock") ||
                    userChoice.equalsIgnoreCase("Scissor") && computerChoice.equals("Paper")) {
-
-                System.out.println("You Win!");
+                   System.out.println("You Win!");
         } else {
                 System.out.println("You Lose!");
         }
