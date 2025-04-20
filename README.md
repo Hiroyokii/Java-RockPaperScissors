@@ -24,6 +24,5 @@ This is a beginner-level Rock, Paper, Scissors game written in Java. It uses the
 - `if-else` conditionals
 - String comparison with `equalsIgnoreCase()`
 
-##  How to Run
 
-1. Clone the repo or copy the code.
+
